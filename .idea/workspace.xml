@@ -36,9 +36,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\dev\git\FlareSolverr\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="npm.build-start">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -60,6 +60,21 @@
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="audit fix" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="audit" />
+      <arguments value="fix" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="audit" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="audit" />
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="build-start" type="js.build_tools.npm">
@@ -89,6 +104,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="install" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -98,6 +120,9 @@
     </configuration>
     <list>
       <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="npm.audit" />
+      <item itemvalue="npm.audit fix" />
+      <item itemvalue="npm.install" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.build-start" />
       <item itemvalue="npm.start" />
@@ -119,7 +144,9 @@
       <workItem from="1607737335768" duration="2221000" />
       <workItem from="1607741588662" duration="554000" />
       <workItem from="1607743225589" duration="3481000" />
-      <workItem from="1607820288724" duration="205000" />
+      <workItem from="1607820288724" duration="4093000" />
+      <workItem from="1607844255872" duration="138000" />
+      <workItem from="1607855896207" duration="12000" />
     </task>
     <servers />
   </component>
